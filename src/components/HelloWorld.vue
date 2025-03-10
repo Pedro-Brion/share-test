@@ -14,10 +14,7 @@ async function share() {
     const img = new File([res], "filename.png", { type: res.type });
     console.log(img);
     navigator.share({
-      title: "Test",
-      text: "Aqui vai minha pontuação no simulado agrinvest, tente você também",
-      url: "/teste/?text=test",
-      files: [img],
+      text: "Aqui vai minha pontuação no simulado agrinvest, tente você também - https://social-sharing-test.netlify.app/",
     });
   } catch (err) {
     console.error(err);
