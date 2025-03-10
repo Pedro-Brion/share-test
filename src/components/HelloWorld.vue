@@ -2,7 +2,7 @@
 import { toBlob } from "html-to-image";
 import { ref } from "vue";
 const text = ref(
-  "Mussum Ipsum, cacilds vidis litro abertis. Sapien in monti palavris qui num significa nadis i pareci latim. Atirei o pau no gatis, per gatis num morreus. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis."
+  "Teste"
 );
 
 const node = ref();
